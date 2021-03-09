@@ -47,8 +47,7 @@ The ratio of consecutive Fibonacci terms approaches Phi; 1.618...
 def fibonacci(n):
     if (n==0) or (n==1):
         return n
-    else:
-        return (fibonacci(n-1)+fibonacci(n-2))
+    return (fibonacci(n-1)+fibonacci(n-2))
 
 
 n=int(input("How many digits of the Fibonacci Sequence would you like to compute: "))
@@ -60,7 +59,7 @@ for x in range(n):
     n2=fibonacci(x+1)
     print(n1)
     if (n1!=0):
-        golden_ratios.append(n2/n1);
+        golden_ratios.append(n2/n1)
     
 print("\nThe corresponding Golden Ratio values are:")
 for ratio in golden_ratios:

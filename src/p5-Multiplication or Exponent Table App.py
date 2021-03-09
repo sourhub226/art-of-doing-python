@@ -46,8 +46,8 @@ print(f"\nExponent table for {num}:")
 for x in range(1,10,1):
     print(f"{num} ^ {x} = {round(num**x,4)}")
 
-str=", Math is cool!"
-print(f"{name.title()}{str}")
-print(f"{name}{str}".lower())
-print(f"{name}{str}".title())
-print(f"{name}{str}".upper())
+string=", Math is cool!"
+print(f"{name.title()}{string}")
+print(f"{name}{string}".lower())
+print(f"{name}{string}".title())
+print(f"{name}{string}".upper())
