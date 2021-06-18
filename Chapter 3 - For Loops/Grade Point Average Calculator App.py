@@ -57,10 +57,7 @@ That is a change of 3.2 points!
 
 '''
 def enter_grades(n):
-    temp=[]
-    for _ in range(n):
-        temp.append(int(input("Enter grade: ")))
-    return temp
+    return [int(input("Enter grade: ")) for _ in range(n)]
 
 def print_grades(array):
     for num in array:

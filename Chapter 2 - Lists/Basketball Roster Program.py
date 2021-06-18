@@ -35,8 +35,8 @@ Good luck Lucas Eramo you will do great!
 Your roster now has 5 players.
 '''
 
-roster=[]
-roster.append(input("Who is your point guard: ").title())
+
+roster = [input("Who is your point guard: ").title()]
 roster.append(input("Who is your shooting guard: ").title())
 roster.append(input("Who is your small forward: ").title())
 roster.append(input("Who is your power forward: ").title())

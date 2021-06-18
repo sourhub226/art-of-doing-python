@@ -43,6 +43,7 @@ Your guess is too low.
 Game Over. The number I was thinking of was 10.
 
 '''
+
 import random
 win=False
 
@@ -62,5 +63,5 @@ for i in range(5):
     else:
         print("Your guess is too low.")
 
-if win is False:
+if not win:
     print(f"\nGame Over. The number I was thinking of was {num}.")

@@ -36,6 +36,7 @@ Thank you for using the Quadratic Equation Solver App. Goodbye.
 
 '''
 
+
 import cmath
 print("A quadratic equation is of the form ax^2 + bx + c = 0")
 
@@ -48,8 +49,8 @@ for i in range(n):
     b=float(input("Please enter your value of b (coefficient of x): "))
     c=float(input("Please enter your value of c (coefficient): "))
 
-    x1=((-b)+(cmath.sqrt((b*b)-(4*a*c))))/(2*a)
-    x2=((-b)-(cmath.sqrt((b*b)-(4*a*c))))/(2*a)
+    x1 = (-b + cmath.sqrt(b**2 - 4*a*c)) / (2*a)
+    x2 = (-b - cmath.sqrt(b**2 - 4*a*c)) / (2*a)
 
     print(f"\nThe solutions to ({a})x^2 + ({b})x + (c) = 0 are:")
     print(f"x1 = {x1}")

@@ -35,15 +35,16 @@ mike math is cool!
 Mike Math Is Cool!
 MIKE MATH IS COOL!
 '''
+
 name=input("Enter your name: ")
 num=float(input("Enter the number: "))
 
 print(f"Multiplication table for {num}:")
-for x in range(1,10,1):
+for x in range(1, 10):
     print(f"{num} x {x} = {round(num*x,4)}")
 
 print(f"\nExponent table for {num}:")
-for x in range(1,10,1):
+for x in range(1, 10):
     print(f"{num} ^ {x} = {round(num**x,4)}")
 
 string=", Math is cool!"

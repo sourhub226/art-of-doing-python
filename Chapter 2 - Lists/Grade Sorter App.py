@@ -20,8 +20,8 @@ Your remaining grades are: [100, 95]
 Nice work! Your highest grade is a 100.
 '''
 
-grades=[]
-grades.append(int(input("Enter first grade (0-100): ")))
+
+grades = [int(input("Enter first grade (0-100): "))]
 grades.append(int(input("Enter second grade (0-100): ")))
 grades.append(int(input("Enter third grade (0-100): ")))
 grades.append(int(input("Enter fourth grade (0-100): ")))
