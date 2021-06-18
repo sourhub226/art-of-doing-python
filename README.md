@@ -3,7 +3,9 @@
 
 # The Art of Doing - Computer Science Through Python Application
 
-Solutions to 40 challenging python programming exercises from the [ebook by Michael Eramo](https://github.com/sourhub226/art-of-doing-python/files/6676961/The_Art_of_Doing_Ebook.pdf).
+Solutions to 40 challenging python programming exercises from the [ebook by Michael Eramo](https://github.com/sourhub226/art-of-doing-python/files/6676961/The_Art_of_Doing_Ebook.pdf) 
+
+The [ebook](https://github.com/sourhub226/art-of-doing-python/files/6676961/The_Art_of_Doing_Ebook.pdf) includes problem description, detailed guide, example output, and completed code.
 
 Support `Michael Eramo` by purchasing his course `"The Art of Doing: Code 40 Challenging Python Programs Today!"` on [udemy](https://www.udemy.com/course/the-art-of-doing/).
 
