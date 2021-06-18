@@ -8,4 +8,5 @@ Solutions to 40 challenging python programming exercises from the [ebook by Mich
 Support `Michael Eramo` by purchasing his course `"The Art of Doing: Code 40 Challenging Python Programs Today!"` on [udemy](https://www.udemy.com/course/the-art-of-doing/).
 
 To-Do
-- [ ] Try
+- [X] Try
+- [ ] try 2
